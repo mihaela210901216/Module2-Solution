@@ -1,3 +1,5 @@
+/* First media*/
+
 @media(min-width: 992px){
   .col-lg-3  {
     float: left;
@@ -9,7 +11,7 @@
   }
 }
 
-
+/* 2d media*/
 @media(min-width: 768px) and (max-width: 991px){
   .col-lg-3{
     float: left;
@@ -30,7 +32,7 @@
 
 }
 
-
+/* 3d media*/
 @media(max-width: 767px){
   .col-lg-3{
     float: left;
@@ -52,7 +54,7 @@ h1{
  font-family: Helvetica, sans-serif;
   font-size: 1.80em;
 }
-/* Float four columns side by side */
+/* about display*/
 .column {
   float: left;
   width: 33%;
@@ -62,7 +64,7 @@ h1{
 
 .row {margin: 0 -5px;}
 
-/* Clear floats after the columns */
+/* borders*/
 .row:after {
   content: " ";
   display: relative;
