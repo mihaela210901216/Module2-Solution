@@ -107,12 +107,3 @@ h1{
   border-style: solid;
   font-size: 1.50em;
 }
-
-
-@media screen and (max-width: 992px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
