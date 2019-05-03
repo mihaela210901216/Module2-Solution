@@ -1,6 +1,43 @@
-@media screen and (max-width: 992px) {
-  .column {
+@media(min-width: 992px){
+  .col-lg-3  {
+    float: left;
+    background-color: lightgrey;
+    width: 33%;
+    margin-right: 3px;
+
+   
+  }
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
+  .col-lg-3{
+    float: left;
+    background-color: grey;
+    width: 49%;
+
+  }
+
+  .col-lg-6{
+    width: 49%;
+    margin-right: 3px;
+  }
+
+  .col-md-6{
+    width: 98.5%;
+    margin-top: 3px;
+  }
+
+}
+
+
+@media(max-width: 767px){
+  .col-lg-3{
+    float: left;
     width: 100%;
+    background-color: green;
+    border-style: groove;
+    margin-top: 5px;
   }
 }
 * {
@@ -13,12 +50,14 @@ body {
 h1{
   text-align: center;
  font-family: Helvetica, sans-serif;
+  font-size: 1.80em;
 }
 /* Float four columns side by side */
 .column {
   float: left;
   width: 33%;
   padding: 0 10px;
+  
 }
 
 .row {margin: 0 -5px;}
@@ -26,7 +65,7 @@ h1{
 /* Clear floats after the columns */
 .row:after {
   content: " ";
-  display: table;
+  display: relative;
   clear: both;
   width: 100%;
 }
@@ -34,25 +73,30 @@ h1{
 /* Style the counter cards */
 .card {
   padding: 16px;
+  
   text-align: center;
   background-color: #f1f1f1;
   border-style: solid;
-  text-align: left
+  text-align: left;
+  
 }
 
 .card1{
   padding: 16px;
+   float: left;
   text-align: center;
   background-color: #FF4000;
   float: right;
-  border-style: solid
+  border-style: solid;
+    font-size: 1.50em;
 }
 .card2{
   padding: 16px;
   text-align: center;
   background-color: #FE2E64;
   float: right;
-  border-style: solid
+  border-style: solid;
+  font-size: 1.50em;
 }
 
 .card3{
@@ -61,6 +105,7 @@ h1{
   background-color: #F3F781;
   float: right;
   border-style: solid;
+  font-size: 1.50em;
 }
 
 
